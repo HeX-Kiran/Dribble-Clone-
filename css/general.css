@@ -1,0 +1,74 @@
+:root{
+    --bg-color:#F8F7F4;
+    --btn-bg-color:#000;
+    --btn-bg-color-hover:#565564;
+    --btn-color:#fff;
+    --text-color:#0d0c22;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+
+}
+
+.primary-heading{
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+.secondary-heading{
+    font-size: 2.4rem;
+   
+}
+.teritory-heading{
+    font-size: 1.8rem;
+   
+}
+
+.btn:link,
+.btn:visited{
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1.6rem 2.8rem;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-color);
+    border-radius: 40px;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: var(--btn-bg-color-hover);
+
+}
+
+
+
+/* FONT SIZE SYSTEM (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+    
+    line height(in px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+    
+    */
