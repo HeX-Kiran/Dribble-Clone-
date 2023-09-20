@@ -120,6 +120,8 @@ header{
     }
 
     .hero-desc{
+        padding: 0.5rem 0;
+        
         margin-bottom: 2rem;
     }
 
@@ -130,6 +132,122 @@ header{
         padding: 2.4rem 3.2rem;
         
     }
+
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Hero Marquee**************** */
+.hero-marquee{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.marquee-content{
+    --gap: 7rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+
+.marquee-container{
+    flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+  animation: marquee 30s linear infinite;
+}
+
+.items{
+    padding: 2rem;
+    height:40rem;
+    width: 32rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    gap: 0.5rem;
+}
+
+
+.marquee-items1{
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/man4.webp');
+}
+
+.marquee-items2{
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/man2.webp');
+}
+.marquee-items3{
+
+   
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/man3.webp');
+    
+}
+.marquee-items4{
+
+   
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/man4.webp');
+   
+}
+.marquee-items5{
+
+   
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/women4.webp');
+    
+    
+}
+.marquee-items6{
+
+    
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/women2.webp');
+    
+    
+}
+.marquee-items7{
+
+   
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/women3.webp');
+    
+}
+
+
+.items p{
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.tags{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.tags span{
+    padding: 0.6rem 1.4rem;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 1px solid #ffffff51;
+    border-radius: 50px;
+}
+
+
+
+@keyframes marquee{
+    from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(calc(-100% - var(--gap)));
+      }
+}
+
 
 
 /* ***************************************** */
