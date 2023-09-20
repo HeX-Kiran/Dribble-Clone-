@@ -3,7 +3,7 @@
 
 header{
     padding: 2rem 5rem;
-
+    background-color: var(--bg-color);
 }
 
 .navigation{
@@ -94,6 +94,7 @@ header{
 /* ***************************************** */
 /* ********* Hero Section**************** */
     .section-hero{
+        background-color: var(--bg-color);
         padding-top: 10rem;
         text-align: center;
     }
@@ -140,7 +141,7 @@ header{
 /* ********* Hero Marquee**************** */
 .hero-marquee{
     padding-top: 10rem;
-    padding-bottom: 10rem;
+    /* padding-bottom: 10rem; */
 }
 
 .marquee-content{
@@ -176,7 +177,7 @@ header{
 
 
 .marquee-items1{
-    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.401),rgba(10, 10, 10, 0.369)),url('../Images/hero-marquee/man4.webp');
+    background-image: linear-gradient(to right bottom,rgba(105, 104, 103, 0.592),rgba(10, 10, 10, 0.611)),url('../Images/hero-marquee/man1.webp');
 }
 
 .marquee-items2{
@@ -246,6 +247,212 @@ header{
       to {
         transform: translateX(calc(-100% - var(--gap)));
       }
+}
+
+
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Section Featured-in**************** */
+
+.section-featured-in{
+    
+    margin: 0 auto;
+    /* padding: 0 3.2rem; */
+    padding-top: 10rem;
+    max-width: 120rem;
+}
+
+.brand-logo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    
+
+}
+
+.brand-logo p{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.brand-desc{
+    border-bottom: 1px solid #dbdbde;
+    padding: 15rem 0;
+    column-gap: 9rem;
+}
+
+.brand-desc .heading{
+    font-weight: 300;
+    font-size: 9.6rem;
+}
+
+.heading-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: start;
+    justify-content: start;
+    padding: 2.6rem;
+}
+
+.heading-desc p{
+    
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Connection Section**************** */
+
+.connection-container{
+    padding: 15rem 0 0;
+    max-width: 89.2rem;
+    margin: 0 auto;
+}
+
+.connecting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.connecting .hero-badge{
+    background-color: #FFDA79;
+}
+
+.connecting-heading.primary-heading{
+    font-size: 6.4rem;
+}
+
+.connecting-header-desc.secondary-heading{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+
+
+
+.match.grid{
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    column-gap: 5rem;
+    padding-bottom: 15rem;
+}
+
+.match-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.match-text-box .primary-heading{
+    font-size: 5.2rem;
+}
+
+.match-text-box .teritory-heading{
+    font-weight: 400;
+    
+}
+
+.match-btns{
+    display: flex;
+    gap: 2rem;
+}
+
+.btn.bg-white:link,
+.btn.bg-white:visited{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #01010127;
+}
+
+.match-img-box{
+    position: relative;
+}
+
+.match-img-box img{
+    width: 100%;
+    
+    
+}
+
+.person-card{
+    background-color: white;
+    width: 28rem;
+    padding: 2rem 4rem 2rem 2rem;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    row-gap: 3rem;
+    column-gap: 2rem;
+    /* justify-content: space-between; */
+    border-radius: 50px;
+    box-shadow:6.53292px 11.4326px 24.4984px rgba(0,0,0,0.05);
+    right: -10%;
+    bottom: -10%;
+    z-index: 10;
+}
+
+.match-img-box .artist-img{
+    
+    width: 6rem;
+    justify-self:start;
+}
+
+.artist-details{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.artist-name{
+    font-size: 2rem;
+}
+
+.artist-role{
+    /* padding: 1.2rem 0.5rem; */
+    /* padding-left: 1rem; */
+    font-size: 1.6rem;
+    background-color: #DDFDE8;
+    
+    font-weight: 700;
+}
+
+.artist-skill{
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.artist-skill p{
+    font-size: 1.8rem;
+}
+.artist-skill .tags span{
+    color: black;
+    border: 1px solid #00000051;
+}
+
+.artist-cost{
+    font-size: 2rem;
+}
+
+.artist-rating{
+    align-self: center;
+    justify-self: end;
 }
 
 

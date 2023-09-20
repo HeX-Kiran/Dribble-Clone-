@@ -24,7 +24,7 @@ body{
 
     overflow-x: hidden;
     position: relative;
-    background-color: var(--bg-color);
+    background-color: #fff;
     color: var(--text-color);
     font-family: 'Noto Sans', sans-serif;
     font-weight: 500;
@@ -39,11 +39,12 @@ body{
 
 .secondary-heading{
     font-size: 2.4rem;
+    line-height: 1.7;
    
 }
 .teritory-heading{
     font-size: 1.8rem;
-   
+   line-height: 1.6;
 }
 
 .btn:link,
@@ -62,6 +63,20 @@ body{
     background-color: var(--btn-bg-color-hover);
 
 }
+
+.grid{
+    display: grid;
+    gap: 2rem;
+}
+
+.grid--col2{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid--col3{
+    grid-template-columns: repeat(3,1fr);
+}
+
 
 
 
