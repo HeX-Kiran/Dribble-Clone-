@@ -400,6 +400,7 @@ header{
     box-shadow:6.53292px 11.4326px 24.4984px rgba(0,0,0,0.05);
     right: -10%;
     bottom: -10%;
+
     z-index: 10;
 }
 
@@ -458,6 +459,90 @@ header{
 
 
 /* ***************************************** */
+
+/* ***************************************** */
+/* ********* Testimonial Section**************** */
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.testimonial-heading .primary-heading{
+    width: 50%;
+    font-size: 5.2rem;
+    
+}
+
+.feature-cards.grid{
+    gap: 4rem;
+    padding-bottom: 10rem;
+}
+
+.feature-card .secondary-heading{
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.feature-card .teritory-heading{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.testimonial-content{
+    border: 1px solid #dbdbde;
+    padding: 3.2rem;
+    border-radius: 2rem;
+}
+.testimonial-content{
+    width: 100%;
+    grid-column: span 2;
+}
+
+blockquote.primary-heading{
+    font-size: 3.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.testimonial-user{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.testimonial-user strong {
+    font-size: 2rem;
+}
+
+
+.testimonial-user span {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.testimonial-logo{
+    border-radius: 1.6rem;
+    background-image: linear-gradient(to bottom right, #FCD0BA, #FF869D);
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: end; */
+    margin: auto 0 ;
+}
+
+
+
+
+
+/* ***************************************** */
+
 
 
 /* FONT SIZE SYSTEM (px)

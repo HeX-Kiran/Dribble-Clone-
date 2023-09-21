@@ -31,6 +31,16 @@ body{
 
 }
 
+.wrapper{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.wrapper-small{
+    max-width: 98rem;
+    
+}
+
 .primary-heading{
     font-size: 8rem;
     font-weight: 400;
