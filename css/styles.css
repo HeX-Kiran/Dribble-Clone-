@@ -491,19 +491,23 @@ header{
     line-height: 1.7;
 }
 
+.testimonial-box{
+    margin-bottom: 15rem;
+}
+
 .testimonial-content{
+    
     border: 1px solid #dbdbde;
     padding: 3.2rem;
     border-radius: 2rem;
-}
-.testimonial-content{
     width: 100%;
     grid-column: span 2;
 }
 
+
 blockquote.primary-heading{
-    font-size: 3.2rem;
-    line-height: 1.6;
+    font-size: 2.8rem;
+    line-height: 1.5;
     margin-bottom: 2rem;
 }
 
@@ -530,12 +534,106 @@ blockquote.primary-heading{
 }
 
 .logo{
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: end; */
-    margin: auto 0 ;
+    justify-content: center;
+    transition: all 0.3s;
+    
 }
+
+.logo:hover{
+    scale: 1.1;
+    rotate: 10deg;
+}
+
+.fa-google{
+    color: #fff;
+}
+
+
+.logo .secondary-heading{
+    color: #fff;
+    
+}
+
+
+
+
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Why Section**************** */
+
+.section-why{
+    margin-bottom: 15rem;
+}
+
+.why-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+.why-content-heading.primary-heading{
+    max-width: 89rem;
+    margin: 0 auto;
+    font-size: 6.4rem;
+    text-align: center;
+}
+
+.why-content-body.grid{
+    gap: 4rem;
+}
+
+.why-body-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5rem;
+}
+
+.why-body-card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+}
+
+.why-body-card .secondary-heading{
+    display: inline-block;
+    
+}
+
+.why-body-card .teritory-heading{
+    font-weight: 400;
+}
+
+.card-1{
+    background-color: #E6FBFE;
+}
+
+.card-2{
+    background-color: #EDDDFB;
+}
+
+.card-3{
+    background-color: #E3EBFD;
+}
+
+.why-body-img-box{
+    align-self: center;
+    justify-self: center;
+}
+
+.why-body-img-box img{
+    width: 100%;
+    border-radius: 48px;
+}
+
 
 
 
