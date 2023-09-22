@@ -17,7 +17,7 @@
 
 html{
     font-size: 62.5%;
-    overflow-x: hidden;
+    
     scroll-behavior: smooth;
 }
 
@@ -73,6 +73,21 @@ body{
 .btn:active{
     background-color: var(--btn-bg-color-hover);
 
+}
+
+
+.btn.bg-white:link,
+.btn.bg-white:visited{
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    border: 1px solid #01010127;
+    transition: all 0.1s;
+}
+
+.btn.bg-white:hover,
+.btn.bg-white:active{
+    border: 2px solid #000;
 }
 
 .grid{

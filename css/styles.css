@@ -369,12 +369,7 @@ header{
     gap: 2rem;
 }
 
-.btn.bg-white:link,
-.btn.bg-white:visited{
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #01010127;
-}
+
 
 .match-img-box{
     position: relative;
@@ -638,6 +633,127 @@ blockquote.primary-heading{
 
 
 
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Post Section**************** */
+
+.section-post .primary-heading{
+    font-size: 4.8rem;
+}
+
+
+
+.posts{
+    margin-left: -100px;
+    margin-top: 4.8rem;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* min-width: 50%; */
+    gap: 2rem;
+    
+}
+
+.post-cards{
+    /* height:40rem; */
+    width: 40rem;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.post-cards img{
+    width: 100%;
+}
+
+.post-cards video{
+    width: 100%;
+}
+
+.posts.post-2{
+    margin-top: 5rem;
+    grid-template-columns: repeat(6,1fr);
+    margin-left: -350px
+}
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Get started Section**************** */
+    .section-get-started{
+        margin: 15rem 0;
+        
+    }
+
+    .get-started.grid{
+        gap: 5rem;
+    }
+
+    .talent-card{
+        
+        padding: 5.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 5rem;
+        background-color: #F8F7F4;
+        border-radius: 50px;
+    }
+
+    .talent-card .teritory-heading{
+        padding: 1rem 2.4rem;
+        background-color: #B3FBE3;
+        border-radius: 50px;
+    }
+
+    .talent-card .primary-heading{
+        font-size: 5.2rem;
+    }
+
+    .talent-card .secondary-heading{
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .account-btn{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        
+    }
+
+    .talent-card.card-2 .teritory-heading{
+        background-color: #FFABE7;
+    }
+
+/* ***************************************** */
+
+/* ***************************************** */
+/* ********* Start Hiring Section**************** */
+
+.start-hiring-section{
+    background-color: #FFDA79;
+    padding: 12rem 0;
+    margin-bottom: 10rem;
+}
+
+.start-hiring{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.start-hiring .secondary-heading{
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.start-hiring .secondary-heading a{
+    text-decoration: underline;
+    color: inherit;
+}
 
 /* ***************************************** */
 
