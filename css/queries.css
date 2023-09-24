@@ -349,6 +349,11 @@
     html{
         font-size: 43.75%;
     }
+
+    header{
+        padding-left: 1rem;
+        padding-right : 1rem;
+    }
     .hero-badge {
         
         padding: 1.2rem 2.4rem;
