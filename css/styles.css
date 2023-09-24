@@ -4,6 +4,7 @@
 header{
     padding: 2rem 5rem;
     background-color: var(--bg-color);
+    position: relative;
 }
 
 .navigation{
@@ -12,6 +13,10 @@ header{
     align-items: center;
     justify-content: space-between;
     font-size: 1.6rem;
+}
+
+.btn-menu{
+    display: none;
 }
 
 .main-nav-links{
@@ -259,7 +264,8 @@ header{
 .section-featured-in{
     
     margin: 0 auto;
-    /* padding: 0 3.2rem; */
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-top: 10rem;
     max-width: 120rem;
 }
@@ -345,6 +351,8 @@ header{
     margin-top: 5rem;
     column-gap: 5rem;
     padding-bottom: 15rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .match-text-box{
@@ -395,7 +403,7 @@ header{
     box-shadow:6.53292px 11.4326px 24.4984px rgba(0,0,0,0.05);
     right: -10%;
     bottom: -10%;
-
+    transition: all 1s;
     z-index: 10;
 }
 
@@ -462,6 +470,7 @@ header{
     display: flex;
     flex-direction: column;
     gap: 10rem;
+    padding: 0 3rem;
 }
 
 .testimonial-heading .primary-heading{
@@ -805,6 +814,8 @@ blockquote.primary-heading{
     justify-content: space-between;
     width: 100%;
     padding: 4.4rem;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .footer-nav h1{
@@ -817,6 +828,8 @@ blockquote.primary-heading{
     align-items: center;
     /* justify-content: space-between; */
     gap: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .footer-nav .nav-links{
@@ -828,6 +841,8 @@ blockquote.primary-heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 .about{

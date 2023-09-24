@@ -1,5 +1,401 @@
 
 
+/* ****************************************** */
+/* ************1300 px ************************ */
+
+@media (max-width:81.25em){
+
+    .person-card{
+        right: 0%;
+    bottom: -10%;
+    }
+}
+
+
+/* ****************************************** */
+
+/* ****************************************** */
+/* ************1200 px ************************ */
+@media (max-width:75em){
+
+    html{
+        font-size: 56.25%;
+    }
+}
+
+/* ****************************************** */
+
+/* ****************************************** */
+/* ************1050 px ************************ */
+@media (max-width:65.6em){
+
+    html{
+        font-size: 50%;
+    }
+}
+
+/* ****************************************** */
+
+/* ****************************************** */
+/* ************950 px ************************ */
+@media (max-width:59.3em){
+
+    html{
+        font-size: 56.25%;
+    }
+
+    .grid--col2,.grid--col3,.grid--col4{
+        grid-template-columns: 1fr;
+    }
+
+    .primary-heading{
+        font-size: 5.2rem
+    }
+
+    header {
+        padding: 2rem 3rem;
+        
+    }
+
+    
+
+    .hero-body{
+        padding: 0 4rem;
+    }
+
+    .hero-desc.secondary-heading {
+       font-size: 2rem;
+    }
+    .log-in{
+        display: none;
+    }
+
+    .section-featured-in{
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+  
+
+    .heading-desc {
+        padding-left: 0;
+    }
+
+    .section-connection{
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+    .connecting-header-desc.secondary-heading {
+        
+        font-size: 2.2rem;
+    }
+
+    .match.grid{
+        
+        margin-top: 150px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    
+
+    .match-text-box {
+        margin-bottom: 100px;
+        gap: 5rem;
+    }
+
+    .match-img-box{
+        text-align: center;
+    }
+
+    .match-img-box img{
+        width: 80%;
+        
+    }
+
+    .person-card {
+   
+        right: 10%;
+        bottom:-10%;
+       
+    }
+    
+    .section-testimonial{
+        margin-top: 50px;
+    }
+
+    .feature-cards.grid {
+        
+        padding-bottom: 5rem;
+    }
+
+    
+
+    .feature-card .teritory-heading {
+        font-size: 1.8rem;
+        
+    }
+
+    
+
+    .testimonial-logo {
+       
+        display: none;
+    }
+
+   
+
+    .why-body-img-box img {
+        width: 90%;
+        border-radius: 48px;
+    }
+
+    .footer-nav {
+
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+
+    /* Navigation-Part */
+    .main-nav-links{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.936);
+        top: 0;
+        left:0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        opacity: 0%;
+        pointer-events: none;
+        visibility: hidden;
+        transform: translateX(100%);
+    }
+
+    .btn-menu{
+        display: block;
+        border: none;
+        background-color: transparent;
+        z-index: 10;
+    }
+
+    .navigation{
+        grid-template-columns: 56px 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    .brand-name{
+        justify-self: start;
+    }
+
+    .btn-menu .close{
+        display: none;
+    }
+
+     .trigger .main-nav-links{
+        opacity: 100%;
+        pointer-events: initial;
+        visibility: visible;
+
+        transition: all 0.5s;
+        transform: translateX(0);
+    }
+
+    .trigger .open{
+        display: none;
+    }
+
+    .trigger .close{
+        display: block;
+    }
+
+    
+
+   
+
+
+
+}
+
+/* ****************************************** */
+
+
+/* ****************************************** */
+/* ************700 px ************************ */
+@media (max-width:43.75em){
+    /* .primary-heading {
+        font-size: 3.6rem;
+    }
+    */
+    
+    /* .hero-heading.primary-heading p{
+        font-size: 7.4rem;
+    } */
+    
+    .brand-logo{
+        grid-template-columns:repeat(5,1fr);
+        row-gap: 30px
+    }
+
+    
+
+    .brand-logo p{
+        grid-column: 1 / -1;
+        justify-self: center;
+    }
+
+    .brand-logo svg{
+        justify-self: center;
+        font-size: 3rem;
+        grid-row: 2;
+    }
+
+    .brand-desc .heading {
+       
+        font-size: 6rem;
+    }
+
+    .heading-desc p {
+        font-size: 1.8rem;
+        
+    }
+
+    .connecting-heading.primary-heading {
+        font-size: 5.2rem;
+    }
+    .connecting-header-desc.secondary-heading {
+        font-size: 2rem;
+    }
+    .match-text-box .primary-heading {
+        font-size: 3.6rem;
+    }
+
+    
+    .features {
+        gap: 8rem;
+    }
+
+    blockquote.primary-heading {
+        font-size: 2.2rem;
+       
+    }
+    .testimonial-user strong {
+        font-size: 1.8rem;
+    }
+    .testimonial-user img{
+        width: 8%;
+    }
+    .testimonial-user span {
+        font-size: 1.4rem;
+    }
+    
+
+    .why-content-heading.primary-heading {
+        
+        font-size: 5.2rem;
+        text-align: start;
+    }
+
+    .section-post .primary-heading {
+        font-size: 3.6rem;
+    }
+
+    .post-cards {
+        height: 20rem;
+        width: 30rem;
+        
+    }
+
+    .talent-card .primary-heading {
+        font-size: 3.6rem;
+    }
+
+    
+
+    .account-btn {
+        width: 100%;
+       
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+       
+        text-align: center;
+    }
+
+    .footer-nav-links {
+        
+        gap: 2rem;
+    }
+    .footer-nav .nav-links {
+        font-size: 1.4rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+    }
+}
+
+/* ****************************************** */
+
+/* ****************************************** */
+/* ************500 px ************************ */
+@media (max-width:31.2em){
+
+    html{
+        font-size: 43.75%;
+    }
+    .hero-badge {
+        
+        padding: 1.2rem 2.4rem;
+        border-radius: 50px;
+    }
+
+    .hero-heading {
+        margin: 2rem 2rem 0 2rem;
+    }
+
+    .match-img-box img {
+        width: 100%;
+    }
+
+    .why-body-img-box img {
+        width: 100%;
+        
+    }
+
+    .get-started.wrapper{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .person-card {
+        right: -5%;
+        bottom: -25%;
+    }
+
+    .talent-card .primary-heading {
+        font-size: 5rem;
+    }
+
+    .start-hiring .secondary-heading {
+       text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .footer-about {
+        
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    
+}
+/* ****************************************** */
 
 
 
